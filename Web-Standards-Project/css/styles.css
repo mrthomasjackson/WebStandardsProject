@@ -299,3 +299,32 @@ Image credits: unsplash.com
 .shoppingHead {
     height: 2.5em;
 }
+.sign-in-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: url(../images/sign-in/Reading_glasses.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.sign-in-form-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(32, 32, 32, 0.76);
+    background-size: cover;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-in-form-container legend {
+    color: white;
+}
+.sticky-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: block;
+}

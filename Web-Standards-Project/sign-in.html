@@ -10,6 +10,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -51,8 +53,240 @@
         </div><!-- ./container-fluid-->
     </nav>
 </header>
+<!--Sign In CTA-->
+<section>
+    <div class="sign-in">
+        <div class="container-fluid sign-in-container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 sign-in-form-container">
+                    <div>
+                        <form class="form-horizontal">
+                            <fieldset>
+
+                                <!-- Form Name -->
+                                <legend>Sign In</legend>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-4 col-sm-4 control-label" for="username">Username</label>
+                                    <div class="col-md-4 col-sm-8">
+                                        <input id="username" name="username" type="text" placeholder="" class="form-control input-md" required="">
+
+                                    </div>
+                                </div>
+
+                                <!-- Password input-->
+                                <div class="form-group">
+                                    <label class="col-md-4 col-sm-4 control-label" for="password">Password</label>
+                                    <div class="col-md-4 col-sm-8">
+                                        <input id="password" name="password" type="password" placeholder="" class="form-control input-md" required="">
+
+                                    </div>
+                                </div>
+
+                                <!-- Button (Double) -->
+                                <div class="form-group">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <button id="signIn" name="signIn" class="btn btn-success">Sign In</button>
+                                        <button id="signUp" name="signUp" class="btn btn-default">Sign Up</button>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                        <div>
+                            <h1>Eyeglasses.com</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.sign-in -->
+</section>
+<section>
+    <div class="container-fluid">
+        <h2 class="page-header">Available Brands</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/adidas.jpg" alt="Adidas">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Adidas</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Adidas</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/arnette.jpg" alt="arnette">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Arnette</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Arnette</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/bolle.jpg" alt="Bolle">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Bolle</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Bolle</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/carrera.jpg" alt="Carrera">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Carrera</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Carrera</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/Costa_del_Mar.jpg" alt="Costa Del Mar">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Costa Del Mar</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Costa</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/juicycouture.jpg" alt="Juicy Couture">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Juicy Couture</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Juicy</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                            </div><!--.row-->
+                        </div><!--.item-->
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/marc_by_marc_jacobs.png" alt="Marc by Marc Jacobs">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Marc Jacobs</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Marc</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/MauiJim.jpg" alt="Maui Jim">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Maui Jim</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Maui Jim</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/oakley.jpg" alt="Oakley">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>BrandOne</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Oakley</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/polariod.jpg" alt="Polariod">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Polariod</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Polariod</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/Ray_Ban.png" alt="Ray Ban">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Ray Ban</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Ray Ban</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                                <!--Panel-->
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="panel panel-default text-center">
+                                        <div class="panel-heading">
+                                            <img class="img-responsive img-thumbnail" src="images/client-logos/rudy_project.jpg" alt="Rudy Project">
+                                        </div>
+                                        <div class="panel-body">
+                                            <h5>Rudy Project</h5>
+                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Rudy</a>
+                                        </div>
+                                    </div>
+                                </div><!--./panel-->
+                            </div><!--.row-->
+                        </div><!--.item-->
+                    </div><!--.carousel-inner-->
+                    <a data-slide="prev" href="#Carousel" class="left carousel-control">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-success"></i>
+                              <i class="fa fa-arrow-left fa-stack-1x fa-inverse"></i>
+                        </span></a>
+                    <a data-slide="next" href="#Carousel" class="right carousel-control">
+                        <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-2x text-success"></i>
+                              <i class="fa fa-arrow-right fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </div><!--.Carousel-->
+
+            </div>
+        </div>
+    </div><!--.container-->
+</section>
 <!-- Footer -->
-<footer>
+<footer class="">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
@@ -89,5 +323,11 @@
 <!--JS-->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#Carousel').carousel({
+        })
+    });
+</script>
 </body>
 </html>
