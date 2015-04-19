@@ -312,22 +312,22 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-            $('.add').on('click',function(e){
-                e.preventDefault();
-                var $qty=$(this).closest('div').find('.qty');
-                var currentVal = parseInt($qty.val());
-                if (!isNaN(currentVal)) {
-                    $qty.val(currentVal + 1);
-                }
-            });
-            $('.minus').on('click',function(e){
-                e.preventDefault();
-                var $qty=$(this).closest('div').find('.qty');
-                var currentVal = parseInt($qty.val());
-                if (!isNaN(currentVal) && currentVal > 0) {
-                    $qty.val(currentVal - 1);
-                }
-            });
+        $('.add').on('click',function(e){
+            e.preventDefault();
+            var $qty=$(this).closest('div').find('.qty');
+            var currentVal = parseInt($qty.val());
+            if (!isNaN(currentVal)) {
+                $qty.val(currentVal + 1);
+            }
+        });
+        $('.minus').on('click',function(e){
+            e.preventDefault();
+            var $qty=$(this).closest('div').find('.qty');
+            var currentVal = parseInt($qty.val());
+            if (!isNaN(currentVal) && currentVal > 0) {
+                $qty.val(currentVal - 1);
+            }
+        });
 
     });
 
