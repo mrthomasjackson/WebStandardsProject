@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b235421-75d2-4e5a-bb88-a506232c8571" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-sunglasses.html" afterPath="$PROJECT_DIR$/shop-sunglasses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-cart.html" afterPath="$PROJECT_DIR$/shopping-cart.html" />
-    </list>
+    <list default="true" id="4b235421-75d2-4e5a-bb88-a506232c8571" name="Default" comment="" />
     <ignored path="Web-Standards-Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -122,8 +119,8 @@
       <file leaf-file-name="sign-up.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sign-up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37898937">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.19946809">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -208,7 +205,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Sites/Florida Liquor Licenses" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="FullScreen" value="false" />
   </component>
@@ -452,12 +449,12 @@
       <workItem from="1429372540710" duration="156000" />
       <workItem from="1429374254023" duration="8307000" />
       <workItem from="1429458263633" duration="16000" />
-      <workItem from="1429481973257" duration="3032000" />
+      <workItem from="1429481973257" duration="3167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20235000" />
+    <option name="totallyTimeSpent" value="20370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1154" height="873" extended-state="0" />
@@ -1037,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sign-up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37898937">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.19946809">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
