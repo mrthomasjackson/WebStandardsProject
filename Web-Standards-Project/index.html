@@ -3,15 +3,16 @@
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We specialize in designer eyeglass, sunglasses, and more. Check out our low prices and give us a call today!">
+    <meta name="description"
+          content="We specialize in designer eyeglass, sunglasses, and more. Check out our low prices and give us a call today!">
     <meta name="author" content="mrthomasjackson.com">
     <title>Home - Eyeglasses.com</title>
     <!--CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <!--<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">-->
     <link href="css/styles.css" rel="stylesheet">
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -19,7 +20,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNav">
@@ -29,26 +30,24 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">Eyeglasses.com</a>
-            </div><!--./navbar header-->
+            </div>
+            <!--./navbar header-->
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="topNav">
                 <ul class="nav navbar-nav">
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="shop-eyeglasses.html">Shop Eyeglasses</a></li>
                     <li><a href="shop-sunglasses.html">Shop Sunglasses</a></li>
                     <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                </ul>
-                <form class="navbar-form navbar-right" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
                     <li><a href="sign-in.html">Sign In</a></li>
                     <li><a href="sign-up.html">Sign Up</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- ./container-fluid-->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- ./container-fluid-->
     </nav>
 </header>
 <section>
@@ -67,42 +66,48 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item slides active">
-                <div class="slide-1"></div>
-                <div class="mySlide1">
-                    <div class="col-sm-12">
+                <div class="slide-1">
+                    <div class="mySlide1">
+                    <div>
                         <h1>Burberry Eyewear</h1>
+
                         <h3>Expertly crafted, signature shapes, and seasonal colours</h3>
                     </div>
-                    <button class="btn btn-info btn-lg" role="button">Shop Burberry</button>
-                </div>
+                    <button class="btn" role="button">Shop Burberry</button>
+                </div></div>
+
             </div>
             <div class="item slides">
-                <div class="slide-3"></div>
-                <div class="mySlide">
+                <div class="slide-3"><div class="mySlide1">
                     <div>
                         <h1>Get Ready For Summer</h1>
+
                         <h3>Check out our sunglasses collection</h3>
                     </div>
-                    <button class="btn btn-info btn-lg" role="button">Shop Sunglasses</button>
-                </div>
+                    <button class="btn" role="button">Shop Sunglasses</button>
+                </div></div>
+
             </div>
             <div class="item slides">
-                <div class="slide-2"></div>
-                <div class="mySlide1">
+                <div class="slide-2"><div class="mySlide1">
                     <div>
 
                         <h1>BCBG Max Azria</h1>
+
                         <h3>Inspired by fashion and the <br> ornamental style of glamorous <br> jet setters</h3>
                     </div>
-                    <button class="btn btn-info btn-lg" role="button">Shop BCBG</button>
-                </div>
+                    <button class="btn" role="button">Shop BCBG</button>
+                </div></div>
+
             </div>
         </div>
-    </div><!--./slider-->
+    </div>
+    <!--./slider-->
 </section>
 <section>
     <div class="container-fluid">
         <h2 class="page-header">Available Brands</h2>
+
         <div class="row">
             <div class="col-md-12">
                 <div id="Carousel" class="carousel slide">
@@ -111,156 +116,186 @@
 
                         <div class="item active">
                             <div class="row">
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/adidas.jpg" alt="Adidas">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/adidas.jpg" alt="Adidas">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Adidas</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Adidas</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Adidas</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/arnette.jpg" alt="arnette">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/arnette.jpg" alt="arnette">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Arnette</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Arnette</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Arnette</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/bolle.jpg" alt="Bolle">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/bolle.jpg" alt="Bolle">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Bolle</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Bolle</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Bolle</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/carrera.jpg" alt="Carrera">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/carrera.jpg" alt="Carrera">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Carrera</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Carrera</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Carrera</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/Costa_del_Mar.jpg" alt="Costa Del Mar">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/Costa_del_Mar.jpg" alt="Costa Del Mar">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Costa Del Mar</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Costa</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Costa</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/juicycouture.jpg" alt="Juicy Couture">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/juicycouture.jpg" alt="Juicy Couture">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Juicy Couture</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Juicy</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Juicy</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
-                            </div><!--.row-->
-                        </div><!--.item-->
+                                </div>
+                                <!--./panel-->
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
 
                         <div class="item">
                             <div class="row">
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/marc_by_marc_jacobs.jpg" alt="Marc by Marc Jacobs">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/marc_by_marc_jacobs.jpg"
+                                                 alt="Marc by Marc Jacobs">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Marc Jacobs</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Marc</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Marc</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/MauiJim.jpg" alt="Maui Jim">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/MauiJim.jpg" alt="Maui Jim">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Maui Jim</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Maui Jim</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Maui Jim</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/oakley.jpg" alt="Oakley">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/oakley.jpg" alt="Oakley">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Oakley</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Oakley</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Oakley</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/polariod.jpg" alt="Polariod">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/polariod.jpg" alt="Polariod">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Polariod</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Polariod</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Polariod</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/Ray_Ban.jpg" alt="Ray Ban">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/Ray_Ban.jpg" alt="Ray Ban">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Ray Ban</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Ray Ban</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Ray Ban</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
+                                </div>
+                                <!--./panel-->
                                 <!--Panel-->
-                                <div class="col-md-2 col-sm-4">
-                                    <div class="panel panel-default text-center">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
+                                    <div class="panel text-center">
                                         <div class="panel-heading">
-                                            <img class="img-responsive img-thumbnail" src="images/client-logos/rudy_project.jpg" alt="Rudy Project">
+                                            <img class="img-responsive img-thumbnail"
+                                                 src="images/client-logos/rudy_project.jpg" alt="Rudy Project">
                                         </div>
                                         <div class="panel-body">
                                             <h5>Rudy Project</h5>
-                                            <a class="btn-sm btn-success" href="shop-eyeglasses.html">Shop Rudy</a>
+                                            <a class="btn sm" href="shop-eyeglasses.html">Shop Rudy</a>
                                         </div>
                                     </div>
-                                </div><!--./panel-->
-                            </div><!--.row-->
-                        </div><!--.item-->
-                    </div><!--.carousel-inner-->
+                                </div>
+                                <!--./panel-->
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+                    </div>
+                    <!--.carousel-inner-->
                     <a data-slide="prev" href="#Carousel" class="left carousel-control">
                         <span class="fa-stack fa-2x">
                               <i class="fa fa-circle fa-stack-2x text-success"></i>
@@ -272,18 +307,20 @@
                               <i class="fa fa-arrow-right fa-stack-1x fa-inverse"></i>
                         </span>
                     </a>
-                </div><!--.Carousel-->
+                </div>
+                <!--.Carousel-->
 
             </div>
         </div>
-    </div><!--.container-->
+    </div>
+    <!--.container-->
 </section>
 <section>
     <div class="container-fluid">
         <!--Panels-->
         <div class="row">
             <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default text-center">
+                <div class="panel text-center">
                     <div id="panelZero" class="panel-heading">
                         <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x text-success"></i>
@@ -292,14 +329,17 @@
                     </div>
                     <div class="panel-body">
                         <h4>Shop Secure</h4>
+
                         <p>
-                            We use SSL technology to provide you with the safest, most secure shopping experience possible. SSL technology enables encryption of sensitive information, including passwords and credit card numbers, during your online transactions.
+                            We use SSL technology to provide you with the safest, most secure shopping experience
+                            possible. SSL technology enables encryption of sensitive information, including passwords
+                            and credit card numbers, during your online transactions.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default text-center">
+                <div class="panel text-center">
                     <div id="panelOne" class="panel-heading">
                         <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
@@ -308,24 +348,30 @@
                     </div>
                     <div class="panel-body">
                         <h4>Price Match Guarantee</h4>
+
                         <p>
-                            We’re committed to providing low prices every day. On everything. So if you find a lower advertised price on an identical product, tell us and we’ll match it. We will match any local competitor's advertised price, no matter what it may be.
+                            We’re committed to providing low prices every day. On everything. So if you find a lower
+                            advertised price on an identical product, tell us and we’ll match it. We will match any
+                            local competitor's advertised price, no matter what it may be.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-12">
-                <div class="panel panel-default text-center">
+                <div class="panel text-center">
                     <div id="panelTwo" class="panel-heading">
                         <span class="fa-stack fa-5x">
                               <i class="fa fa-circle fa-stack-2x text-success"></i>
-                              <i class="fa fa-street-view fa-stack-1x fa-inverse"></i>
+                              <i class="fa fa-slideshare fa-stack-1x fa-inverse"></i>
                         </span>
                     </div>
                     <div class="panel-body">
                         <h4>Customer Service</h4>
+
                         <p>
-                            The Eyeglasses.com Online Store is a convenient place to purchase our products and accessories from Eyeglasses.com and other manufacturers. You can buy online, or by calling (800) 555-1234, 7 days a week from 8:00 a.m. to 6:00 p.m. Eastern time.
+                            The Eyeglasses.com Online Store is a convenient place to purchase our products and
+                            accessories from Eyeglasses.com and other manufacturers. You can buy online, or by calling
+                            (800) 555-1234, 7 days a week from 8:00 a.m. to 6:00 p.m.
                         </p>
                     </div>
                 </div>
@@ -363,7 +409,6 @@
                         <a href="sign-up.html" title="Eyeglasses.com - Sign Up">Sign Up</a>
                     </li>
                 </ul>
-                <p class="copyright text-muted small">Copyright© 2015 - Eyeglasses.com</p>
             </div>
         </div>
     </div>
@@ -372,9 +417,8 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script>
-    $(document).ready(function() {
-        $('#Carousel').carousel({
-        })
+    $(document).ready(function () {
+        $('#Carousel').carousel({})
     });
 </script>
 </body>
