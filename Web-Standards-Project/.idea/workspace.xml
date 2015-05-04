@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b235421-75d2-4e5a-bb88-a506232c8571" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/efef3156a528ca876916d20a50602072777f9ede/styles.scssc" afterPath="$PROJECT_DIR$/.sass-cache/efef3156a528ca876916d20a50602072777f9ede/styles.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Web-Standards-Project.iml" afterPath="$PROJECT_DIR$/.idea/Web-Standards-Project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/details.html" afterPath="$PROJECT_DIR$/details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-eyeglasses.html" afterPath="$PROJECT_DIR$/shop-eyeglasses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop-sunglasses.html" afterPath="$PROJECT_DIR$/shop-sunglasses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-cart.html" afterPath="$PROJECT_DIR$/shopping-cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css.map" afterPath="$PROJECT_DIR$/css/styles.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.scss" afterPath="$PROJECT_DIR$/css/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4b235421-75d2-4e5a-bb88-a506232c8571" name="Default" comment="" />
     <ignored path="Web-Standards-Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -263,12 +251,12 @@
       <workItem from="1429481973257" duration="3167000" />
       <workItem from="1430060206555" duration="12969000" />
       <workItem from="1430105721454" duration="838000" />
-      <workItem from="1430669719569" duration="4911000" />
+      <workItem from="1430669719569" duration="4954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39088000" />
+    <option name="totallyTimeSpent" value="39131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="943" height="873" extended-state="0" />

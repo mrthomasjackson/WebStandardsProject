@@ -1,0 +1,407 @@
+$color1: #2C3E50;
+$color2: #E74C3C;
+$color3: #ECF0F1;
+$color4: #3498DB;
+$color5: #2980B9;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+  font-family: cursive;
+  font-size: 2em;
+}
+
+.navbar-brand:hover {
+  color: $color4 !important;
+}
+
+.btn {
+  width: 100%;
+  padding: 0;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: $color5;
+  border: 0;
+  border-bottom: 2px solid $color4;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px $color4;
+  box-shadow: inset 0 -2px $color4;
+  border-radius: 0;
+}
+
+.btn-fourth {
+  width: 25% !important;
+  display: inline-block;
+}
+
+.btn:hover {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: $color4;
+  border-bottom: 2px solid $color5;
+  color: $color3;
+}
+
+.marginBottom {
+  margin-bottom: 10px;
+}
+
+.sm {
+  font-size: 1.5em !important;
+}
+
+.xsm {
+  font-size: 1em !important;
+}
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.f-carousel {
+  position: relative;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.f-carousel .carousel-inner .item {
+  height: 300px;
+}
+.f-carousel .carousel-indicators > li {
+  margin: 0 2px;
+  background-color: $color4;
+  border-color: $color5;
+  opacity: .7;
+}
+.f-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+
+/********************************/
+/*          Slider Headers        */
+/********************************/
+.mySlide1 {
+  position: fixed;
+  bottom: 25%;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  z-index: 3;
+  color: $color3;
+  text-align: left;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+  transform: translate3d(-50%,-50%,0);
+}
+.mySlide h1 {
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: $color3;
+}
+
+.mySlide1 h1 {
+  font-size: 5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: $color3;
+}
+
+.f-carousel .carousel-inner .item .mySlide {
+  opacity: 0;
+  transition: 2s all ease-in-out .1s;
+}
+
+.f-carousel .carousel-inner .item .mySlide1 {
+  opacity: 0;
+  transition: 2s all ease-in-out .1s;
+}
+
+.f-carousel .carousel-inner .item.active .mySlide {
+  opacity: 1;
+  transition: 2s all ease-in-out .1s;
+}
+
+.f-carousel .carousel-inner .item.active .mySlide1 {
+  opacity: 1;
+  transition: 2s all ease-in-out .1s;
+}
+
+
+/********************************/
+/*            Overlay           */
+///********************************/
+//.overlay {
+//  position: absolute;
+//  width: 100%;
+//  height: 100%;
+//  z-index: 2;
+//  background-color: $color1;
+//  opacity: .1;
+//}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.f-carousel .slides .slide-1,
+.f-carousel .slides .slide-2,
+.f-carousel .slides .slide-3 {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.f-carousel .slides .slide-1 {
+  background-image: url(../images/home/slide1.png);
+}
+.f-carousel .slides .slide-2 {
+  background-image: url(../images/home/slide2.jpg);
+}
+.f-carousel .slides .slide-3 {
+  background-image: url(../images/home/slide3.png);
+}
+
+.slide-1 {
+  width: 100%;
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+  .mySlide { width: 100%; }
+}
+@media screen and (max-width: 1060px){
+  .mySlide h1 { font-size: 1.5em; }
+  .mySlide1 h1 { font-size: 1.5em; }
+}
+/********************************/
+/*          NavBar OverRides   */
+/********************************/
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+.left > span {
+  position: absolute;
+  left: -15px;
+  top: 50%;
+}
+
+.right > span {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+}
+.carousel-control {
+  background-image: none !important;
+}
+/********************************/
+/*          NavBar OverRides   */
+/********************************/
+
+.product-wrapper{
+  border:1px solid $color3;
+  overflow: hidden;
+  margin-bottom:30px;
+}
+
+.product {
+  position: relative;
+}
+
+.shoppingInfo h2{
+  color: $color1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.shoppingInfo p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: $color1;
+}
+
+.shoppingInfo img{
+  width: 100%;
+}
+
+.shoppingInfo{
+  position:relative;
+}
+.product:hover {
+  display:block;
+  height:100%;
+}
+
+.cart {
+  background: $color3;
+  border: 0 none;
+  border-radius: 0;
+  color: $color1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.cart:hover {
+  background: $color1;
+  border: 0 none;
+  border-radius: 0;
+  color:$color3;
+}
+
+.add-to{
+  margin-bottom: 10px;
+}
+
+.cart i{
+  margin-right:5px;
+}
+
+
+.shoppingHead {
+  height: 2.5em;
+}
+.sign-in-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: $color3;
+  background: url(../images/sign-in/Reading_glasses.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.sign-in-form-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: opacify($color1, .76);
+  background-size: cover;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-in-form-container legend {
+  color: $color3;
+}
+
+.navbar {
+  background-color: $color1;
+  border-radius: 0;
+}
+.navbar a {
+  color: $color3;
+}
+
+.navbar a:hover {
+  color: $color1;
+}
+
+.navbar button, input {
+  border-radius: 0;
+}
+
+.carousel-control {
+  width: 0;
+}
+
+.panel {
+  border-radius: 0;
+}
+
+.panel-heading {
+  background-color: $color1;
+  color: $color3;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.panel-body {
+  background-color: $color3;
+  border-radius: 0;
+}
+
+.text-success {
+  color: $color2;
+}
+
+.fa-inverse {
+  color: $color3 !important;
+}
+
+.icon-bar {
+  color: $color3 !important;
+  background-color: $color3 !important;
+}
+
+.sr-only {
+  color: $color3 !important;
+  background-color: $color3 !important;
+}
+
+footer {
+  background-color: $color1;
+}
+footer a {
+  color: $color3;
+  &:hover {
+    color: $color5;
+  }
+}
+.cursive {
+  font-family: cursive;
+}
+
+.stickyFoot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/********************************/
+/*          Details Page   */
+/********************************/
+
+.product-link:hover {
+    img {
+      transition: 2s;
+      transform: scale(1.5);
+    }
+}
+
+.review {
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px !important;
+  }
+  i {
+    margin-right: 5px;
+  }
+  input {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px !important;
+
+  }
+  textarea {
+    height: 250px;
+    margin-bottom: 10px !important;
+  }
+  button {
+    margin-bottom: 10px !important;
+  }
+}
+
